@@ -1,13 +1,13 @@
 # EX.-1-FORMATION-OF-Y-BUS-MATRIX-BY-INSPECTION-METHOD-
  
-AIM:  
+# AIM:  
 To develop a program to obtain bus admittance matrix for the given power 
 system network by inspection method.
 
-SOFTWARE REQUIRED:
+# SOFTWARE REQUIRED:
 MATLAB Software
   
-THEORY: 
+# THEORY: 
 Bus admittance matrix is often used in power system studies. In most of the 
 power system studies, it is necessary to form [Y-bus] matrix of the system by considering 
 certain power system parameters depending upon the type of analysis. 
@@ -32,7 +32,7 @@ hundreds of buses, the sparsity is high. It may be as high as 99%. Hence, by app
 technique, numerical computation time as well as computer storage requirement may be 
 drastically reduced. 
  
-ALGORITHM: 
+# ALGORITHM: 
 1. Initialize [Y-bus] matrix, i.e., replace all entries by zero.  
 Yij = -Yji = off diagonal element. 
 2. Compute Yii =  
@@ -44,7 +44,7 @@ Y
 1
  = Diagonal element.
 
-PROGRAM: 
+# PROGRAM: 
 Formation of Y-bus using Inspection method: 
 ```
 clear;
@@ -75,4 +75,5 @@ end
 end 
 ybus
 ```
-RESULT:
+# OUTPUT:
+# RESULT:
