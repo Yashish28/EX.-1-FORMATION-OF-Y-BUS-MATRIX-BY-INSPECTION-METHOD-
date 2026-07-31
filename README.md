@@ -76,4 +76,9 @@ end
 ybus
 ```
 # OUTPUT:
+
+<img width="1918" height="1142" alt="image" src="https://github.com/user-attachments/assets/08d26758-26fb-4c9d-b560-b789138c0e21" />
+
 # RESULT:
+
+I have developed a program to obtain bus admittance matrix for the given power system network by inspection method.
